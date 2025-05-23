@@ -1,0 +1,78 @@
+/* Import Poppins font from Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+/* Apply Poppins font to all elements */
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+/* Additional font weights for specific elements */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+}
+
+.btn {
+    font-weight: 500;
+}
+
+:root {
+    --primary-color: #568c7d;
+    --secondary-color: #575907;
+    --light-color: #d9d9d2;
+    --dark-color: #262401;
+    --accent-color: #8c7c68;
+}
+
+body {
+    background-color: var(--light-color);
+    color: var(--dark-color);
+    font-weight: 400;
+}
+
+.navbar {
+    background-color: var(--primary-color) !important;
+}
+
+.navbar-brand,
+.nav-link {
+    color: var(--light-color) !important;
+}
+
+.btn-primary {
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+}
+
+.btn-secondary {
+    background-color: var(--secondary-color) !important;
+    border-color: var(--secondary-color) !important;
+}
+
+.card {
+    border-color: var(--accent-color);
+}
+
+.card-header {
+    background-color: var(--primary-color);
+    color: var(--light-color);
+}
+
+.table thead {
+    background-color: var(--primary-color);
+    color: var(--light-color);
+}
+
+.footer {
+    background-color: var(--dark-color);
+    color: var(--light-color);
+}
+
+.discount-badge {
+    background-color: var(--accent-color);
+    color: var(--light-color);
+}
